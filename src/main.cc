@@ -3,7 +3,7 @@
 void print(int&);//blueprint o prototipo
 
 int main(){
-int*** matrix3Ptr
+int*** matrix3Ptr//TAREA MATRIZ 
     {
         new int**[3]
         {
@@ -195,17 +195,18 @@ int*** matrix3Ptr
     {
         std::cout << numbers + i << "\t";
     }*/
-
-    /*for(int n : numbers)
+/*
+    for(int n : numbers)
     {
         std::cout << &n  << "\t";
-    }*/
-
-    /*for(auto n : numbers)
+    }
+*/
+/*
+    for(auto n : numbers)
     {
         std::cout << n  << "\t";
     }
-
+/*
     int i{};
 
     while(i < 6)
@@ -258,9 +259,10 @@ int*** matrix3Ptr
     
     return 0;
 }
-
 void print(int& number)
 {
     std::cout << "number value: " << number << std::endl;
     std::cout << "number memmory: " << &number << std::endl;
-}/*
+}
+*/
+
